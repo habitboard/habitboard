@@ -1,4 +1,6 @@
-### Hi there 👋
+### Welcome to HabitBoard
+
+HabitBoard is a simple printable habit board generator
 
 <!--
 **habitboard/habitboard** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
