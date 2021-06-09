@@ -2,6 +2,8 @@
 
 HabitBoard is a simple printable habit board generator
 
+See it in cation and using it here: https://habitboard.github.io/habitboard/
+
 <!--
 **habitboard/habitboard** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
