@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Habit Grid</title>
+    <meta name="description" content="Create a Gabit Grid">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="options">
+        <h3>Create Habitboard</h3>
+        <form method="get" action="grid.html">
+            <fieldset>
+                <legend>Details:</legend>
+                <label for="title">Action:</label><br />
+                <input type="text" name="title" value="Example action" />
+                <br /><br />
+                <label for="startdate">Starting Date:</label><br />
+                <input type="date" id="startdate" name="startdate" placeholder="" />
+                <br /><br />
+                <label for="days">Days:</label><br />
+                <input type="text" id="days" name="days" value="49" />
+                <br />
+                <span id="7w" class="dshortcut" title="7 weeks">[7W]</span>
+                <span id="14w" class="dshortcut" title="14 weeks">[14W]</span>
+                <span id="90d" class="dshortcut" title="90 days">[90D]</span>
+                <br /><br />
+                <input type="submit" value="Create" />
+            </fieldset>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

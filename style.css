@@ -1,0 +1,52 @@
+input {
+    width: 150px;
+}
+
+#holder {
+    width: 600px;
+    margin: auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+#options {
+    width: 300px;
+    height: 250px;
+    margin: 100px auto;
+}
+
+#title {
+    margin-left: 10px;
+}
+
+.dshortcut {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.cell {
+    font-size: 12px;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #000000;
+    margin: 5px;
+    width: 38px;
+    height: 20px;
+    text-align: center;
+}
+
+@media print {
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+
+@page {
+    size: auto;
+    /* auto is the initial value */
+    margin: 0;
+    /* this affects the margin in the printer settings */
+}
